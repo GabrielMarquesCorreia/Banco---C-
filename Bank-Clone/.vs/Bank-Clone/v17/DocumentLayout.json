@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|solutionrelative:bank-clone\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|c:\\users\\gabriel.correia\\documents\\banco - c#\\banco---csharp\\bank-clone\\bank-clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|solutionrelative:bank-clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|c:\\users\\gabriel.correia\\documents\\banco - c#\\banco---csharp\\bank-clone\\bank-clone\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|solutionrelative:bank-clone\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|c:\\users\\gabriel.correia\\documents\\banco - c#\\banco---csharp\\bank-clone\\bank-clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6C581-E788-4F9B-859E-E1E80C10FE14}|Bank-Clone\\Bank-Clone.csproj|solutionrelative:bank-clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "Bank-Clone\\BankAccount.cs",
               "ToolTip": "C:\\Users\\gabriel.correia\\Documents\\Banco - C#\\Banco---CSharp\\Bank-Clone\\Bank-Clone\\BankAccount.cs",
               "RelativeToolTip": "Bank-Clone\\BankAccount.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwBAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T18:47:41.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\gabriel.correia\\Documents\\Banco - C#\\Banco---CSharp\\Bank-Clone\\Bank-Clone\\User.cs",
               "RelativeDocumentMoniker": "Bank-Clone\\User.cs",
               "ToolTip": "C:\\Users\\gabriel.correia\\Documents\\Banco - C#\\Banco---CSharp\\Bank-Clone\\Bank-Clone\\User.cs",
               "RelativeToolTip": "Bank-Clone\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T18:34:29.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabriel.correia\\Documents\\Banco - C#\\Banco---CSharp\\Bank-Clone\\Bank-Clone\\Program.cs",
               "RelativeDocumentMoniker": "Bank-Clone\\Program.cs",
               "ToolTip": "C:\\Users\\gabriel.correia\\Documents\\Banco - C#\\Banco---CSharp\\Bank-Clone\\Bank-Clone\\Program.cs",
               "RelativeToolTip": "Bank-Clone\\Program.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T17:57:03.925Z",
               "EditorCaption": ""

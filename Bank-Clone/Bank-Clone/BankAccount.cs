@@ -11,10 +11,10 @@
             Statement = new List<string> {$"Account created with an initial balance of: {actualBalance:C} "};
         }
 
-        public bool ToWithdrawal(decimal value)
+        public bool MakeDeposit(decimal value)
         {
             Balance += value;
-            Statement.Add($"To Withdrawal: {value:C} | Actual balance: {Balance:C}");
+            Statement.Add($"Make Deposit: {value:C} | Actual balance: {Balance:C}");
             return true;
         }
 
