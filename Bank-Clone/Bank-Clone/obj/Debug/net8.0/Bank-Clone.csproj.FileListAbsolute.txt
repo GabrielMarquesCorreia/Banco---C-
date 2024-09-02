@@ -1,0 +1,15 @@
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\bin\Debug\net8.0\Bank-Clone.exe
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\bin\Debug\net8.0\Bank-Clone.deps.json
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\bin\Debug\net8.0\Bank-Clone.runtimeconfig.json
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\bin\Debug\net8.0\Bank-Clone.dll
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\bin\Debug\net8.0\Bank-Clone.pdb
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.AssemblyInfoInputs.cache
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.AssemblyInfo.cs
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.sourcelink.json
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.dll
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\refint\Bank-Clone.dll
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.pdb
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\Bank-Clone.genruntimeconfig.cache
+C:\Users\gabriel.correia\Documents\Banco - C#\Banco---CSharp\Bank-Clone\Bank-Clone\obj\Debug\net8.0\ref\Bank-Clone.dll
