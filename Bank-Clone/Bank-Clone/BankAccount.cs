@@ -8,13 +8,14 @@
         public BankAccount(decimal actualBalance)
         {
             Balance = actualBalance;
-            Statement = new List<string> {$"Account created with an initial balance of: {Statement:C} "};
+            Statement = new List<string> {$"Account created with an initial balance of: {actualBalance:C} "};
         }
 
-        public void ToDeposit(decimal value)
+        public bool ToWithdrawal(decimal value)
         {
             Balance += value;
-            Statement.Add($"To Deposit: {value:C} | Actual balance: {Balance:C}");
+            Statement.Add($"To Withdrawal: {value:C} | Actual balance: {Balance:C}");
+            return true;
         }
 
         public bool ToWithdraw(decimal value)

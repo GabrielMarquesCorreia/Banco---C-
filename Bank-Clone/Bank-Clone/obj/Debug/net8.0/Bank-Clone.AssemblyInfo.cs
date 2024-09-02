@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bank-Clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+227ed07957e7cffbfba0bad538feca3d5dd34598")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb92c8249309b0d432280037b2e6eeef45109355")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bank-Clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bank-Clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,7 +39,8 @@
                     Console.Write("1 - Account balance    /    ");
                     Console.Write("2 - Statement    /    ");
                     Console.Write("3 - Transfers    /    ");
-                    Console.WriteLine("4 - Exit");
+                    Console.Write("4 - Withdrawal    /    ");
+                    Console.WriteLine("5 - Exit");
 
                     Console.WriteLine();
 
@@ -49,7 +50,7 @@
                     {
                         case "1":
                             Console.WriteLine();
-                            Console.WriteLine($"Your actual balance is: {user.Account.Balance}");
+                            Console.WriteLine($"Your actual balance is: {user.Account.Balance:C}");
                             Console.WriteLine();
                             break;
                         case "2":
@@ -81,6 +82,20 @@
                             }
                             break;
                         case "4":
+                            Console.WriteLine();
+                            Console.Write("Enter the transfer amount: ");
+                            if (decimal.TryParse(Console.ReadLine(), out decimal transferAmountToWithdrawal))
+                            {
+                                user.Account.ToWithdrawal(transferAmountToWithdrawal);
+                                Console.WriteLine($"Withdrawal completed successfully! | Actual balance: {user.Account.Balance:C}");
+                                Console.WriteLine();
+                            }
+                            else
+                            {
+                                Console.WriteLine("Please enter a valid amount: ");
+                            }
+                            break;
+                        case "5":
                             Console.WriteLine();
                             Console.WriteLine("Bye bye!");
                             execute = false;
