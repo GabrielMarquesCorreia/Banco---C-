@@ -1,4 +1,6 @@
-﻿namespace Bank_Clone
+﻿using System.Xml.Linq;
+
+namespace Bank_Clone
 {
     public class BankApp
     {
@@ -65,24 +67,34 @@
                                 break;
                             case "3":
                                 Console.WriteLine();
-                                Console.Write("Enter the transfer amount: ");
-                                if (decimal.TryParse(Console.ReadLine(), out decimal transferAmount))
+                                Console.Write("Enter the number account that will made the transfer: ");
+                                string accountTransfer = Console.ReadLine();
+
+                                var destinationUser = users.Find(u => u.AccountNumber == accountTransfer );
+                                if (destinationUser != null)
                                 {
-                                    if (user.Account.ToWithdraw(transferAmount))
+                                    Console.Write("Enter the transfer amount: ");
+                                    if (decimal.TryParse(Console.ReadLine(), out decimal transferAmount))
                                     {
-                                        Console.WriteLine($"Transfer completed successfully! | Actual balance: {user.Account.Balance:C}");
-                                        Console.WriteLine();
+                                        if (user.Account.ToWithdraw(transferAmount, destinationUser.Account, destinationUser.Name))
+                                        {
+                                            Console.WriteLine($"Transfer to {destinationUser.Name} of the account {accountTransfer} made with successfully! | Your actual balance: {user.Account.Balance:C}");
+                                            Console.WriteLine();
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Insufficient balance | Your actual balance:{user.Account.Balance:C} ");
+                                            Console.WriteLine();
+                                        }
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"Insufficient balance | Actual balance:{user.Account.Balance:C} ");
-                                        Console.WriteLine();
+                                        Console.WriteLine("Please enter a valid amount: ");
                                     }
-
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Please enter a valid amount: ");
+                                    Console.WriteLine("FAILED TRANFER. DETINATION ACCOUNT NOT FOUND!");
                                 }
                                 break;
                             case "4":
@@ -91,7 +103,7 @@
                                 if (decimal.TryParse(Console.ReadLine(), out decimal transferAmountMakeDeposit))
                                 {
                                     user.Account.MakeDeposit(transferAmountMakeDeposit);
-                                    Console.WriteLine($"Withdrawal completed successfully! | Actual balance: {user.Account.Balance:C}");
+                                    Console.WriteLine($"Withdrawal completed successfully! | Your actual balance: {user.Account.Balance:C}");
                                     Console.WriteLine();
                                 }
                                 else
@@ -102,6 +114,7 @@
                             case "5":
                                 Console.WriteLine();
                                 Console.WriteLine($"Bye bye {user.Name}!");
+                                user.Account.SavingBalance();
                                 Console.WriteLine();
                                 execute = false;
                                 break;
@@ -117,7 +130,6 @@
                                 break;
 
                         }
-
                     }
                 }
                 else

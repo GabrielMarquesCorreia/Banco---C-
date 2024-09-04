@@ -12,7 +12,8 @@
             Name = name;
             AccountNumber = accountNumber;
             Password = password;
-            Account = new BankAccount(initialBalance);
+            Account = new BankAccount(initialBalance, accountNumber, name);
+            Account.LoadBalance();
         }
 
         public bool Authentication(string accountNumber, string password)
